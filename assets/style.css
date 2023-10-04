@@ -1,7 +1,155 @@
+/* Debug */
+
+.debug header{
+    height: 60px;
+/*     background-color: rgb(80, 9, 146); */
+}
+
+.debug .item{
+    height: 30px;
+/*     width: 200px; */
+/*     background-color: rgb(159, 84, 229); */
+    border: 1px dashed black;
+}
+
+.debug .login{
+    height: 30px;
+    border: 1px dashed black;
+}
+
+.debug .items{
+    height: 30px;
+/*     width: 600px; */
+/*     background-color: rgb(159, 84, 229); */
+    border: 1px dashed black;
+}
+
+
+
 /* common */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --background-blu: #3161e0;
+    --text-grey: #2e3235;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-blu);
+}
+
+.container_links{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: var(--background-blu);
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.links>div{
+    padding: 5px;
+}
+
+.item{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    text-align: left;
+}
+
+.logo>img{
+    max-width: 80%;
+    max-width: 80%;
+    
+}
+
+.login{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+}
+
+.login_btn{
+    background-color: white;
+    color: var(--text-grey);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.link{
+    color: white;
+    font-size: 12px;
+}
+
+
+/* Utility */
+
+a{
+    text-decoration: none;
+    color: var(--text-grey);
+}
+
+.c_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_7{
+    padding: 1rem;
+    width: calc((100% / 12) * 7);
+}
+
+.col_5{
+    padding: 1rem;
+    width: calc((100% / 12) * 5);
+}
+
+.col_4{
+    padding: 1rem;
+    width: calc((100% / 12) * 4);
+}
+
+.col_2{
+    padding: 1rem;
+    width: calc((100% / 12) * 2);
+}
+
+.col_3{
+    padding: 1rem;
+    width: calc((100% / 12) * 3);
+}
+
+.col_6{
+    padding: 1rem;
+    width: calc((100% / 12) * 6);
+}
+
+.col_8{
+    padding: 1rem;
+    width: calc((100% / 12) * 8);
+}
+
+p_1{
+    padding: 1rem;
 }
