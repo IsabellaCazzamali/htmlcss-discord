@@ -67,9 +67,9 @@ header{
 
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .links>div{
@@ -93,10 +93,8 @@ header{
 }
 
 .login{
-    text-align: right;
+    justify-content: end;
     display: flex;
-    align-items: center;
-    justify-items: flex-end;
 }
 
 .login_btn{
