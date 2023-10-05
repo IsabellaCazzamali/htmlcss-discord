@@ -95,6 +95,13 @@
     border: 1px dashed black;
 }
 
+.debug .screens{
+/*     height: 480px; */
+/*     width: 950px; */
+/*     background-color: rgb(81, 224, 157); */
+    border: 1px dashed black;
+}
+
 
 /* common */
 
@@ -110,6 +117,7 @@
     --text-grey: #2e3235;
     --botton-black: #23272a;
     --background-grey: #f6f6f6;
+    --purple: #8ea1e1;
 }
 
 header{
@@ -213,7 +221,7 @@ header{
     object-fit: cover;
 }
 
-.download{
+.download, .screens{
     width: 100%;
 }
 
@@ -320,4 +328,66 @@ p_1{
     text-align: left;
     font-size: 2rem;
     line-height: 2,5rem;
+    color: var(--text-grey);
+}
+
+.h2_bigc{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-grey);
+}
+
+.p_bigc{
+    padding-left: 10rem;
+    padding-top: 1rem;
+    padding-right: 9rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: var(--text-grey);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* .image_big{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+} */
+
+.big_pic_cont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.stars{
+/*     background-image: url('../assets/img/stars.svg'); */
+/*     background-size: auto; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    background-image: url('../assets/img/stars.svg');
+    background-size: cover;
+}
+
+.big_pic_btn{
+        border: none;
+        background-color: var(--purple);
+        color: var(--text-grey);
+        border-radius: 20px;
+        padding: 10px 15px;
+        font-size: 14px;
+}
+
+.download_btn_bp{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
