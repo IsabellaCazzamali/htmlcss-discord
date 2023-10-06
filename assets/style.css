@@ -1,4 +1,4 @@
-/* Debug */
+/* #region Debug */
 
 .debug header{
     height: 60px;
@@ -68,7 +68,7 @@
     border: 1px dashed black;
 }
 
-    .debug .img_wizard{
+.debug .img_wizard{
 /*     height: 400px; */
 /*     width: 550px; */
     /*    background-color: rgb(202, 49, 49); */
@@ -103,6 +103,52 @@
 }
 
 
+/* .debug .bottom_menu{
+    height: 500px;
+    background-color: rgb(30, 30, 131);
+} */
+
+.debug .socials{
+/*     height: 450px; */
+/*     width: 300px; */
+/*     background-color: rgb(232, 234, 145); */
+    border: 1px dashed black;
+}
+
+.debug .list{
+/*     height: 450px; */
+/*     width: 150px; */
+/*     background-color: rgb(220, 85, 220); */
+    border: 1px dashed black;
+}
+
+/* .debug footer{
+    height: 50px;
+    background-color: rgb(30, 30, 131);
+} */
+
+/* .debug .container_footer{
+    height: 40px;
+    background-color: rgb(255, 143, 161);
+
+} */
+
+.debug .foot_logo{
+    height: 30px;
+/*     width: 100px; */
+/*     background-color: rgb(110, 200, 252); */
+    border: 1px dashed black;
+}
+
+.debug .foot_login{
+    height: 30px;
+/*     width: 100px; */
+/*     background-color: rgb(110, 200, 252); */
+    border: 1px dashed black;
+}
+
+/* #endregion debug */
+
 /* common */
 
 *{
@@ -118,6 +164,7 @@
     --botton-black: #23272a;
     --background-grey: #f6f6f6;
     --purple: #8ea1e1;
+    --backgroung-bottom: #23272a;
 }
 
 header{
@@ -129,6 +176,7 @@ header{
 .container_links{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 70%;
     background-color: var(--background-blu);
 }
@@ -301,6 +349,10 @@ p_1{
     padding: 1rem;
 }
 
+.purple_text{
+    color: var(--purple);
+}
+
 .row{
     padding-top: 20px;
     display: flex;
@@ -371,9 +423,15 @@ p_1{
     justify-content: center;
 }
 
-h3{
+.h3_stars{
     background-image: url('../assets/img/stars.svg');
     background-size: cover;
+}
+
+.h3_bottom{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    line-height: 2rem;
 }
 
 .big_pic_btn{
@@ -383,6 +441,7 @@ h3{
         border-radius: 20px;
         padding: 10px 15px;
         font-size: 14px;
+        color: white;
 }
 
 .download_btn_bp{
@@ -391,3 +450,103 @@ h3{
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
+
+.bottom_menu{
+    background-color: var(--backgroung-bottom);
+}
+
+.socials .language{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0 1.5rem;
+}
+
+.language i{
+    font-size: 10px;
+    padding-left: 2px;
+    color: white;
+}
+
+.language img{
+    padding-right: 2px;
+}
+
+.language span{
+    font-size: 12px;
+    color: white;
+}
+
+.socials ul{
+    list-style: none;
+
+}
+
+.socials_icons{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.socials_icons i{
+    padding-left: 8px;
+    color: white;
+}
+
+.list{
+    padding-top: 3rem;
+}
+
+.list h5{
+    color: var(--purple);
+    padding-bottom: 5px;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list a{
+    color: white;
+    font-size: 12px;
+}
+
+.list li{
+    line-height: 20px;
+}
+
+footer{
+    background-color: var(--backgroung-bottom);
+    padding: 50px;
+}
+
+.container_footer{
+    /*     width: 900px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+    /*     border-top: 1px solid rgba(74,87,129,255); */
+    }
+    
+    .foot_logo{
+        padding-top: 30px;
+    }
+    
+    .foot_login{
+        padding-top: 25px;
+        text-align: right;
+        color: white;
+    }
+
+    .border_t{
+        border-top: 1px solid rgba(74,87,129,255);
+    }
+
+    .footer_btn{
+        background-color: var(--purple);
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
