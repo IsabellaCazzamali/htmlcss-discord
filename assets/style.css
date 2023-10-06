@@ -171,6 +171,10 @@ header{
     display: flex;
     justify-content: center;
     background-color: var(--background-blu);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .container_links{
