@@ -258,6 +258,13 @@ header{
     background-color: var(--background-grey);
 }
 
+.container_blue{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    max-width: 1152px;
+}
+
 .container{
     display: flex;
     width: 70%;
@@ -275,6 +282,10 @@ header{
 
 .download, .screens{
     width: 100%;
+}
+
+.download{
+    margin-top: 30px;
 }
 
 .blue{
@@ -363,7 +374,7 @@ p_1{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding-bottom: 160px;
+    padding-bottom: 130px;
 }
 
 .p_p{
