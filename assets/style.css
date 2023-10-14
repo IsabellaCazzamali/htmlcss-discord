@@ -167,6 +167,10 @@
     --backgroung-bottom: #23272a;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -225,6 +229,11 @@ header{
     border-radius: 15px;
     padding: 5px 10px;
     font-size: 10px;
+    transition: filter 0.5s;
+}
+
+.login_btn:hover{
+    filter: drop-shadow(10px 10px 10px rgba(11, 11, 164, 0.6));
 }
 
 
@@ -235,6 +244,11 @@ header{
     border-radius: 20px;
     padding: 10px 15px;
     font-size: 14px;
+    transition: filter 0.5s;
+}
+
+.download_btn:hover{
+    filter: drop-shadow(10px 10px 10px rgba(11, 11, 164, 0.6));
 }
 
 .browser_btn{
@@ -244,6 +258,11 @@ header{
     border-radius: 20px;
     padding: 10px 15px;
     font-size: 14px;
+    transition: filter 0.5s;
+}
+
+.browser_btn:hover{
+    filter: drop-shadow(10px 10px 10px rgba(11, 11, 164, 0.6));
 }
 
 .link{
@@ -325,7 +344,6 @@ h1{
 
 a{
     text-decoration: none;
-    color: var(--text-grey);
 }
 
 .c_flex{
@@ -369,9 +387,9 @@ a{
     width: calc((100% / 12) * 8);
 }
 
-p_1{
+/* .p_1{
     padding: 1rem;
-}
+} */
 
 .purple_text{
     color: var(--purple);
@@ -461,11 +479,15 @@ p_1{
 .big_pic_btn{
         border: none;
         background-color: var(--purple);
-        color: var(--text-grey);
         border-radius: 20px;
         padding: 10px 15px;
         font-size: 14px;
         color: white;
+        transition: filter 0.5s;
+}
+
+.big_pic_btn:hover{
+    filter: drop-shadow(10px 10px 10px rgba(11, 11, 164, 0.4));
 }
 
 .download_btn_bp{
@@ -474,6 +496,8 @@ p_1{
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
+
+
 
 .bottom_menu{
     background-color: var(--backgroung-bottom);
@@ -560,6 +584,11 @@ footer{
         padding-top: 25px;
         text-align: right;
         color: white;
+        transition: filter 0.5s;
+    }
+
+    .foot_login:hover{
+        filter: drop-shadow(10px 10px 10px rgba(78, 78, 203, 0.5));
     }
 
     .border_t{
